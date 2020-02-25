@@ -26,6 +26,6 @@ def get_repo_info(usr_name='viren567'):
     return output
 
 
-if _name_ == '_main_':
+if __name_ == '__main__':
     for entry in get_repo_info():
         print(entry)
