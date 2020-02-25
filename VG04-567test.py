@@ -15,5 +15,5 @@ class TestGetRepo(unittest.TestCase):
         self.assertEqual(get_repo_info(''), 'can not fetch repos from user')
 
 
-if _name_ == '_main_':
+if __name__ == '__main__':
     unittest.main()
