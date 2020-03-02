@@ -1,8 +1,10 @@
-import requests
+"""author: viren ghori"""
+
 import json
+import requests
 
-
-def get_repo_info(usr_name='viren567'):
+def get_repo_info(usr_name='ywang567'):
+    """get users repository"""
     output = []
     usr_url = 'https://api.github.com/users/{}/repos'.format(usr_name)
     res = requests.get(usr_url)
@@ -26,6 +28,7 @@ def get_repo_info(usr_name='viren567'):
     return output
 
 
-if __name_ == '__main__':
+if __name__ == '__main__':
+    """call main function"""
     for entry in get_repo_info():
         print(entry)
