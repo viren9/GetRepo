@@ -1,5 +1,5 @@
 import unittest
-from vg_repo import get_repo_info
+from VG_GetRepo import get_repo_info
 
 
 class TestGetRepo(unittest.TestCase):
