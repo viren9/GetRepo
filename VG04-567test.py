@@ -1,5 +1,6 @@
-from vg_repo import get_repo_info
 import unittest
+from vg_repo import get_repo_info
+
 
 class TestGetRepo(unittest.TestCase):
     def test_normal_response(self):
