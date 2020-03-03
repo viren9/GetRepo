@@ -1,7 +1,8 @@
 """author: viren ghori"""
 
-import json
 import requests
+import json
+
 
 def get_repo_info(usr_name='ywang567'):
     """get users repository"""
